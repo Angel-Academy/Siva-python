@@ -1,0 +1,15 @@
+'''f=open("doc.txt","a")
+f.write("i am ")
+f.close()
+f=open("doc.txt","r")
+print(f.read())
+f.close()
+f=open("doc.txt","w")
+f.write("i am ")
+f.close()'''
+f=open("doc.txt","a+")
+f.seek(0)
+print(f.read())
+f.write("hii everyone")
+f.close()
+
